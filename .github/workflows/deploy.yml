@@ -25,6 +25,3 @@ jobs:
 
       - name: Generate
         run: npm run generate
-
-      - name: Push static
-        uses: peaceiris/actions-gh-pages@v3
