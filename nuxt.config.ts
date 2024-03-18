@@ -23,4 +23,7 @@ export default defineNuxtConfig({
             autoprefixer: {}
         }
     },
+    app: {
+        baseURL: '/nuxt3-ghpages/'
+    },
 })
