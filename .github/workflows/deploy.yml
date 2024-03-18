@@ -5,9 +5,6 @@ on: [push, pull_request]
 jobs:
   cd:
     runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        working-directory: ${{ env.working-directory }}
 
     strategy:
       matrix:
