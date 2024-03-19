@@ -24,6 +24,6 @@ export default defineNuxtConfig({
         }
     },
     app: {
-        baseURL: '/nuxt3-ghpages/'
+        baseURL: '/'
     },
 })
