@@ -30,10 +30,6 @@ export default defineNuxtConfig({
     target: "static", // and static, nuxt generates a hybrid static site
     app: {
         baseURL: '/'
-    },
-    typescript: {
-        strict: true,
     }
-
 
 })
