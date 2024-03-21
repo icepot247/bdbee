@@ -29,9 +29,6 @@ jobs:
       - name: Install dependencies
         run: npm install -D @nuxt/image
 
-      - name: Audit fix
-        run: npm audit fix
-
       - name: Generate
         run: npm run generate
 
