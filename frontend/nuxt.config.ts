@@ -31,6 +31,12 @@ export default defineNuxtConfig({
     app: {
         baseURL: '/'
     },
-    ssr:false
+    ssr:false,
+    nitro: {
+        prerender: {
+            crawlLinks: true,
+            routes: ['/sitemap.xml', '/robots.txt']
+        }
+    }
 
 })
